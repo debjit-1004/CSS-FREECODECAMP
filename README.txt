@@ -1,0 +1,1 @@
+Okay so i was learning web dev and it was one of the sources along with the odin project and these were my practice codes while watching the lectures, will continue to add more while i dive deep into the world of web dev.

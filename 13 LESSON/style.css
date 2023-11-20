@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    min-height: 200vh;
+    /*  made so that we can have a scrrol bar */
+}
+
+.outer-container {
+    border: 3px dashed white;
+    width: 75vw;
+    height: 85vh;
+    margin: 100px auto;
+    position: relative;
+}
+
+.inner-container {
+    border: 2px solid red;
+    width: 50vw;
+    height: 50vh;
+    margin: 50px auto;
+    /* auto specifies the let and rigth margins */
+    /* position: relative; */
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    color: white;
+    padding: 1rem;
+}
+
+.absolute {
+    background-color: blue;
+    /*  position: static; default option */
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    z-index: 1;
+    left: -1000px;
+    /* to keep the accesibitly feature but to not keep it in screen as by display:none the accesibility feature also turns off */
+}
+
+.relative {
+    background-color: pink;
+    position: relative;
+    /*  top: 100px; */
+    left: 200px;
+}
+
+.fixed {
+    background-color: pink;
+    position: fixed;
+    top: 80px;
+}
+
+.sticky {
+    background-color: aqua;
+    top: 0;
+    left: 250px;
+}

@@ -1,0 +1,40 @@
+body {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.columns {
+    /*    column-count: 4;
+    column-width: 250px; */
+    columns: 4 250px;
+    column-rule: 3px solid black;
+    column-gap: 3rem;
+}
+
+.columns p {
+    margin-top: 0;
+}
+
+.columns h2 {
+    margin-top: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    break-inside: void;
+    /* break-before: column;  this forces the h2 to be at the top of each column but when the page shinks to just one column then this function forces to shink all the contents into three or four columns in the whole web page*/
+}
+
+.columns .quote {
+    /* margin-top: 2rem; no change as specificity of quote is less than speficifity of .columns p */
+    /* changing .quote to .columns .quote  */
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-family: cursive;
+    text-align: center;
+    color: magenta;
+    column-span: all;
+}
+
+.nowrap {
+    white-space: nowrap;
+}

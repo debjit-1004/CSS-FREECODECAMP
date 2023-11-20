@@ -1,0 +1,43 @@
+/* writing a blank import line in css results in non functionality of the css file */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/* p {
+    background-color: blue;
+    
+}
+
+.opposite {
+    background-color: white;
+    color: black;
+    padding: 2rem;
+    margin: 100px;
+} */
+
+ul {
+    list-style-type: none;
+    padding: 1rem;
+    text-align: right;
+    background-color: red;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin-inline: 0.5rem;
+}
+
+the list elements comes side by side li a {
+    color: white;
+    text-decoration: none;
+}

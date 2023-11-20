@@ -1,0 +1,36 @@
+/* html{
+    font-size: 16;
+} */
+
+
+/* dont use this as it doesnt change the web pag even if you change the zoom settings in your computer  */
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+} */
+
+h1 {
+    border: 2px dashed rgb(211, 199, 199);
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+
+/* 
+p {
+    font-size: 1rem;
+    width: 40ch; */
+
+
+/* sets the width of p element of html upto 40 characters  */
+
+
+/* } */

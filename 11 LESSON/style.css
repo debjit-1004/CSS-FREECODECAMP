@@ -1,0 +1,40 @@
+body {
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.block {
+    width: 30vw;
+    height: 30vw;
+    background: black;
+    color: white;
+    padding: 1rem;
+}
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+
+/* p {
+    margin-left: 1rem;
+} this code doesnt work it cannot take the paragraph a bit away from the float element */
+
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+
+section {
+    background-color: bisque;
+    border: 1px solid black;
+    padding: 1rem;
+    /*     overflow: auto;
+ */
+    display: flow-root;
+}

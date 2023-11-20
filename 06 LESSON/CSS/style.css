@@ -1,0 +1,19 @@
+body {
+    font-family: monospace;
+    padding: 10%;
+    font-size: 1rem;
+}
+
+
+/* 
+input,
+button {
+    font: inherit;
+} */
+
+p {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: justify;
+    text-indent: 2em;
+}

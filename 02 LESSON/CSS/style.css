@@ -1,0 +1,49 @@
+* {
+    font-style: italic;
+    font-family: monospace;
+}
+
+body {
+    font-size: 22px;
+    border: 3px solid black;
+}
+
+
+/* element selectors */
+
+h1 {
+    color: pink;
+}
+
+h2 {
+    color: purple;
+}
+
+.blue {
+    color: blue;
+}
+
+p span {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+
+/* selecting particular part of a file */
+
+.first {
+    background-color: black;
+}
+
+
+/* better way to write any css file and this text overwrote the span part in previous line as it comes later in the sequnce of css file */
+
+
+/* type: class selector*/
+
+#red {
+    color: red;
+}
+
+
+/* id selector*/
